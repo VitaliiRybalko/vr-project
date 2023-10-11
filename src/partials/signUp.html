@@ -1,0 +1,47 @@
+<section class="su-section section" id="sign-up">
+  <div class="container su-container">
+    <div class="su-form-container">
+      <h2 class="su-title">Sign <span>Up</span></h2>
+    <p class="su-paragraf">
+      Please use the form below to contact us. Enter your name, email, and
+      message and we'll get back to you shortly.
+    </p>
+    <form name="sign-up">
+      <input class="su-input" type="text" id="name" placeholder="Enter your name" pattern="[A-Za-zА-Яа-яЁё\s]{2,}" autocomplete="on" aria-label="input field" required />
+      <input class="su-input" type="email" id="email" placeholder="Enter your email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" autocomplete="on" aria-label="input field" required />
+      <textarea class="su-text-area" name="message" id="message" placeholder="Message" required aria-label="input field"></textarea>
+      <button class="su-button" type="submit">Send</button>
+      <p class="policy-paragraf">
+        By clicking on “Send” button, you agree to our
+       
+          <a class="span-policy" target="_blank" rel="noopener noreferrer"
+          aria-label="pivacy policy link" href="https://en.wikipedia.org/wiki/Privacy_policy">Privacy Policy, <br class="br-signup" > </a>and allow Promodo to use this information for
+        marketing purposes.
+      </p>
+    </form>
+   </div>
+    <div class="su-picture-container">
+      <picture>
+        <!-- Desktop 1440px -->
+        <source
+          media="(min-width: 1440px)"
+          srcset="./img/sing_up/su-foto-1440.png 1x, ./img/sing_up/su-foto-1440@2x.png 2x"
+        />
+        <!-- Desktop 1280px -->
+        <source
+          media="(min-width: 1280px)"
+          srcset="./img/sing_up/su-foto-1280.png 1x, ./img/sing_up/su-foto-1280@2x.png 2x"
+        />
+        <img
+          class="sign-up-image"
+          src="./img/sing_up/su-foto-1280.png"
+          alt="camera"
+          loading="lazy"
+        />
+      </picture>
+
+      
+    </div>
+    
+  </div>
+</section>

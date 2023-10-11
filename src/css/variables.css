@@ -1,0 +1,11 @@
+:root {
+  scroll-behavior: smooth;
+
+  --black: #121212;
+  --dark-grey: #1d1d1d;
+  --gradient-start: #060707;
+  --gradient-end: #1d1d1d;
+  --brown: #bea69e;
+  --white: #fff;
+  --trns-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

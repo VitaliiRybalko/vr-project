@@ -1,0 +1,144 @@
+@media only screen and (min-width: 375px) and (max-width: 767.98px) {
+  .about-us {
+    padding-bottom: 57px;
+  }
+}
+
+.about-title {
+  color: var(--white); /* base text style */
+  font-family: DM Sans; /* base text style */
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-title {
+    font-size: 48px;
+    line-height: 1.12;
+
+    margin-bottom: 50px;
+  }
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-content {
+    align-items: flex-start;
+    gap: 50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-content {
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+
+    gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .about-content {
+    gap: 50px;
+  }
+}
+
+.about-image {
+  width: 335px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-image {
+    width: 704px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-image {
+    width: 488px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .about-image {
+    width: 544px;
+  }
+}
+
+.about-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-text-container {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439.98px) {
+  .about-text-container {
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .about-text-container {
+    height: 215px;
+  }
+}
+
+.about-text {
+  color: var(--white); /* basic text style */
+  font-size: 14px; /* basic text style */
+  line-height: 1.28; /* basic text style */
+  letter-spacing: -0.02em; /* basic text style */
+
+  width: 100%;
+}
+
+@media only screen and (min-width: 375px) {
+  .about-text {
+    width: 335px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about-text {
+    width: 280.2px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-text {
+    width: 268.5px;
+  }
+  .about-text:last-child {
+    width: 264.5px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .about-text {
+    width: 330px;
+  }
+  .about-text:last-child {
+    width: 276px;
+  }
+}

@@ -1,0 +1,41 @@
+body{
+    color: var(--white);
+    background-color: var(--black);
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 1.29; /*18px*/
+   
+
+}
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}
+
+.accent {
+  color: var(--brown);
+}

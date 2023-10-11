@@ -1,0 +1,349 @@
+.main-footer{
+   
+   
+    background-image: url(../img/footer/Graphic_mob.png);
+    
+    background-size: contain;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+
+   margin-left: auto;
+   margin-right: auto;
+   letter-spacing: normal;
+   padding-top: 40px;
+   padding-bottom: 20px;
+}
+@media only screen and (max-width:767.98px) and (min-resolution: 192dpi){
+    .main-footer{
+        background-image: url(../img/footer/Graphic_mob@2x.png); 
+    }
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+    .main-footer{
+        
+        width: 100%;
+        background-image: url(../img/footer/Graphic_tab.png); 
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+   }
+   @media only screen and (min-width: 768px) and (min-resolution: 192dpi){
+    .main-footer{
+        background-image: url(../img/footer/Graphic_tab@2x.png); 
+    }
+
+}
+
+   /* Desktop */
+   @media only screen and (min-width: 1280px){
+       .main-footer{
+      
+       
+        background-image: url(../img/footer/Graphic_descktop.png);
+       } 
+   }
+   @media only screen and (min-width:1280px) and (min-resolution: 192dpi){
+    .main-footer{
+        background-image: url(../img/footer/Graphic_descktop@2x.png); 
+    }
+
+}
+   /* Desktop 1440 */
+   @media only screen and (min-width: 1440px){
+    .main-footer{
+    
+     background-image: url(../img/footer/Graphic_descktop1440.png);
+    } 
+}
+@media only screen and (min-width:1440px) and (min-resolution: 192dpi){
+    .main-footer{
+        background-image: url(../img/footer/Graphic_descktop1440@2x.png); 
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1279px){
+    .block-footer{
+        display: flex;
+       
+        font-size: 14px;
+        justify-content: space-between;
+
+        
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .block-footer{
+        display: flex;
+        font-size: 14px;
+        line-height: normal;
+        /* padding-left: 101px;
+        padding-right: 101px; */
+    }
+}
+
+
+
+.footer-logo{
+    display: block;
+    margin-bottom: 18px;
+}
+@media only screen and (min-width: 768px){
+    .footer-logo{
+        margin-bottom: 25px;
+    }
+}
+
+
+
+
+
+.phone-nmbr{
+    margin-bottom: 10px;
+}
+.address-footer{
+    
+    font-style: normal;
+}
+
+
+@media only screen and (min-width: 1280px){
+    .first-block{
+        margin-right: 285px;
+
+    }
+}
+@media only screen and (min-width: 1440px){
+    .first-block{
+        margin-right: 341px;
+
+    }
+}
+
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    text-transform: uppercase;
+}
+
+
+@media only screen and (min-width:1280px) {
+    .footer-links{
+        gap: 20px;
+    }
+    
+}
+.address-link{
+    margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px){
+    .address-link{
+        margin-bottom: 0;
+    } 
+}
+
+
+
+
+
+.outer-ul{
+    display: flex;
+    gap: 40px;
+    letter-spacing: normal;
+   
+}
+@media only screen and (min-width: 768px){
+    .outer-ul{
+    gap: 25px;
+    margin-bottom: 74px;
+    
+}
+
+}
+
+@media only screen and (min-width: 1280px){
+    .outer-ul{
+    gap: 50px;
+    margin-bottom: 50px;
+    
+}
+
+}
+@media only screen and (min-width: 1440px){
+    .outer-ul{
+    gap: 100px;
+    
+}
+
+}
+.second-block{
+    margin-bottom: 75px;
+    
+}
+@media only screen and (min-width: 768px){
+    .second-block{
+     
+        margin-bottom: 0;
+        }
+        
+}
+@media only screen and (min-width: 1280px){
+    .second-block{
+    margin-right: 135px;
+    
+}
+
+}
+@media only screen and (min-width: 1440px){
+    .second-block{
+    margin-right: 191px;
+    
+}
+
+}
+
+.footer-input{
+width: 267px;
+height: 60px;
+outline: transparent;
+border-radius: 12px;
+border: transparent;
+padding: 20px 18px;
+font-size: 16px;
+margin-bottom: 40px;
+
+}@media only screen and (min-width: 768px){
+    .footer-input{
+        width: 178px;
+    }  
+}
+
+@media only screen and (min-width: 1280px){
+    .footer-input{
+   width: 216px;
+   font-size: 16px;
+   line-height: 1.25;
+    
+}
+
+}
+
+
+.footer-button {
+   
+  
+   
+    border-radius: 12px;
+    background-color: var(--dark-grey);
+    border: transparent;
+    color: var(--white);
+     font-size: 20px;
+    padding: 18px 16px; 
+    width: 60px;
+    height: 60px;
+    
+   }
+
+   @media only screen and (min-width: 1280px){
+    .footer-button:hover,
+    .footer-button:focus{
+        background-color:var( --brown);
+        color: var(--gradient-start);
+        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+       
+    }
+   
+}
+@media only screen and (max-width: 1279px){
+    .footer-button:active
+    {
+        background-color:var( --brown);
+        color: var(--gradient-start);
+        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    }
+   
+}
+
+@media only screen and (min-width: 1280px){
+    .footer-links-item:hover,
+    .footer-links-item:focus{
+       
+        color: var(--brown);
+        transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+@media only screen and (max-width: 1279px){
+    .footer-links-item:active
+{
+       
+        color: var(--brown);
+        
+    }
+}
+
+
+
+
+
+.form-footer{
+    display: flex;
+    gap: 8px;
+}
+
+@media only screen and (min-width: 1280px){
+    .form-footer{
+        gap: 16px;
+  
+}
+}
+
+
+.rights-reserved{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.left-container{
+   
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: normal;
+}
+.right-container{
+   
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: normal;
+    
+}
+@media only screen and (min-width:768px) {
+   .left-container{
+    font-size: 14px;
+    line-height: 1.28;
+ 
+    letter-spacing: normal;
+   }
+    
+    
+}
+@media only screen and (min-width:768px) {
+   .right-container{
+    font-size: 14px;
+    line-height: 1.28;
+}
+}
+@media only screen and (min-width:768px) {
+    .right-container{
+     width: 138px;
+
+ }
+ }
